@@ -5,4 +5,6 @@
 
 int testPrint(std::string text);
 
+int testAdd(int a, int b);
+
 #endif
