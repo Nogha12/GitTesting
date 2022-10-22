@@ -5,6 +5,8 @@
 int main()
 {
     testPrint(HELLO_MESSAGE);
+    testPrint(TEST_MESSAGE);
+
 
     return 0;
 }
