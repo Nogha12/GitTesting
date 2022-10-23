@@ -18,3 +18,8 @@ int testDivide(int dividend, int divisor, int* remainder)
 	*remainder = dividend % divisor;
 	return dividend / divisor;
 }
+
+int testMultiply(int a, int b)
+{
+	return a * b;
+}
