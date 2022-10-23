@@ -23,3 +23,8 @@ int testMultiply(int a, int b)
 {
 	return a * b;
 }
+
+int testSubtract(int minuend, int subtrahend)
+{
+	return minuend - subtrahend;
+}

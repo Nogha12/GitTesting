@@ -8,6 +8,8 @@ int main()
     const int add2 = 69;
     const int dividend = 69;
     const int divisor = 4;
+    const int minuend = 51;
+    const int subtrahend = 17;
 
     int remainder;
 
@@ -17,6 +19,7 @@ int main()
     std::cout << add1 << " multiplied by " << add2 << " is " << testMultiply(add1, add2) << std::endl;
     std::cout << dividend << " divided by " << divisor << " is " << testDivide(dividend, divisor, &remainder) << std::endl;
     std::cout << "\tthe remainder is " << remainder << std::endl;
+    std::cout << minuend << " minus " << subtrahend << " is " << testSubtract(minuend, subtrahend) << std::endl;
 
     return 0;
 }
