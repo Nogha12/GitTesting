@@ -11,4 +11,6 @@ int testDivide(int dividend, int divisor, int* remainder);
 
 int testMultiply(int a, int b);
 
+int testSubtract(int minuend, int subtrahend);
+
 #endif
