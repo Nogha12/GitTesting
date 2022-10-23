@@ -4,13 +4,18 @@
 
 int main()
 {
+    const int add1 = 42;
+    const int add2 = 69;
+    const int dividend = 69;
+    const int divisor = 4;
+
     int remainder;
 
     testPrint(HELLO_MESSAGE);
     testPrint(TEST_MESSAGE);
 
-    std::cout << "42 multiplied 69 is " << testMultiply(42, 69) << std::endl;
-    std::cout << "69 divided by 3 is " << testDivide(69, 3, &remainder) << std::endl;
+    std::cout << add1 << " multiplied by " << add2 << " is " << testMultiply(add1, add2) << std::endl;
+    std::cout << dividend << " divided by " << divisor << " is " << testDivide(dividend, divisor, &remainder) << std::endl;
     std::cout << "\tthe remainder is " << remainder << std::endl;
 
     return 0;
