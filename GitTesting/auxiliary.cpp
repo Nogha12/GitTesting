@@ -12,3 +12,8 @@ int testAdd(int a, int b)
 {
 	return a + b;
 }
+
+int testDivide(int dividend, int divisor)
+{
+	return dividend / divisor;
+}
